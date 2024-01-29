@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar
+{
+position:sticky;
+top: 0;
+left: 0;
+z-index: 100;
+padding: .5rem 5rem;
+box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+background: black;
+}
+
+.navbar .navbar-brand
+{
+font-size: 25px;
+font-weight: 800;
+color: #29f700 !important;
+}
+
+#navbarSupportedContent a
+{
+    color:#fff ;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover
+{
+    border-bottom: 2px solid #29f700 ; 
+}
+
+#navbarSupportedContent button
+{
+    background: #29f700 ;
+    width: 5rem;
+    border-radius: 15px;
+}
+
+
+section
+{
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/****Home**/
+
+#home
+{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)), url(mix.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1
+{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:  0px 1px 0px #ccc,
+                  0px 2px 0px #ccc,
+                  0px 3px 0px #ccc,
+                  0px 4px 0px #ccc,
+                  0px 5px 0px #ccc,
+                  0px 6px 0px #ccc,
+                  0px 7px 0px #ccc,;
+}
+
+#home p
+{
+    font-size: 18px;
+    color:#fff;
+}
+
+#home .input-group
+{
+    width: 40%;
+    height: 45px;
+}
+
+.signin
+{
+    background: green !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+
+/*******About*******/
+
+body
+{
+    background: linear-gradient(90deg, black, #0F2027, #203A43, #2C5364, black 95%);
+
+    
+}
+
+#about h1
+{
+    font-weight: 800;
+    font-size: 50px;
+    color: white; 
+}
+
+#about p
+{
+    color: white;
+}
+#about-us-image 
+{
+    background: linear-gradient(60deg, black, #0F2027, #203A43, #2C5364, black 95%);
+    -webkit-box-shadow: 0px 0px 17px 5px rgba(138,138,138,1);
+    -moz-box-shadow: 0px 0px 17px 5px rgba(138,138,138,1);
+    box-shadow: 0px 0px 17px 5px rgba(138,138,138,1);
+    color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+  }
+ 
+  div > .lead {
+
+    position: absolute;
+    left: 22%;
+    top: 42%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    /* translate: middle; */
+  }
+
+
+/*******Instrument Product*******/
+
+#product h1
+{
+ font-size: 50px;
+ letter-spacing: 2px;
+ font-weight: 700;
+}
+
+#product img
+{
+    width: 400px;
+    height: 400px;
+}
+.card
+{
+    width: 400px;
+    height: 400px;
+    border: none !important;
+    box-shadow: 15px 20px 20 px rgba(224, 39, 39, 0.249),
+    insert 4px 4px 10px #a9d4ea;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+
+.card:hover
+{
+    box-shadow: insert 5px 5px 10 px rgba(0,0,0,.3),
+    insert -4px -4px 10px #dce6eb;
+    transition: .2s;
+}
+
